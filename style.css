@@ -1,6 +1,14 @@
+@charset 'UTF-8';
+@import 'base.css';
+@font-face{
+    font-family: "myFont";
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
 h1{
+    font-family: myFont;
 color: red;    
 }
 p{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
