@@ -5,7 +5,13 @@
     src: url(DancingScript-VariableFont_wght.ttf);
 }
 h1{
+    padding: 15px 5px 15px 5px; 
+    /* dari atas, kanan, bawah, kiri (searah jarum jam) */
+    border-radius: 10px;
+    border: 5px solid lightpink;
+    /* mewarnai border dan tebal tipisnya */
     font-family: myFont;
+    background-color: lightgreen;
 color: red;    
 }
 p{
