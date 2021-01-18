@@ -1,0 +1,46 @@
+@charset 'UTF-8';
+@import 'bootstrap.css';
+@font-face{
+    font-family: "myFont";
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+.header{
+    background-color: aqua;
+}
+
+.content{
+    background-color: chartreuse;
+}
+.related{
+    background-color: coral;
+}
+.paragraph::first-letter{
+    font-size: 50pt;
+}
+
+input[type="text"]{
+    padding: 15px;
+
+}
+
+input[type="submit"]:hover{
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    background-color: lightgreen;
+}
+
+.blog-title{
+    font-family: myFont;
+    font-size: 30pt;
+    color: yellowgreen;
+    
+}
+.quote{
+    font-size: 16pt;
+    color: magenta;
+}
+
+.footer{
+    background-color: blanchedalmond;
+}
